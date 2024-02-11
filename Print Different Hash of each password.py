@@ -3,9 +3,6 @@
 import hashlib
 import getpass
 
-hashlist = {} #stores key:value pairs of password : hash
-
-#def create_password():
 print("""
           Hello, this is a program where you can view the hashes of 3 different hash types: SHA256, MD5, SHA3-256.
           you enter your password and we'll output the 3 different hashes in 3 different lines for your password.
